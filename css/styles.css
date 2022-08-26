@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.Container {
+    display: flex;
+    background-color: rgba(162, 113, 207, 0.691);
+    padding: 15px;
+    height: 650px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.item {
+    display: flex;
+    display: block;
+    align-items: center;
+    background-color: rgba(122, 230, 194, 0.787);
+    width: 150px;
+    flex-wrap: nowrap;
+    margin: 15px;
+    padding: 15px;
+    align-items: stretch;
+ } 
+img {
+    height: 100px;
+    align-self: center;
+}
+.shrek{
+    order: 5;
+    height: 250px;
+    align-self: center;
+}
+.burro{
+    align-self: center;
+    height: 250px;
+    order: 3;
+}
+.pinocho{
+    order: 4;
+    height: 250px;
+    align-self: flex-start;
+}
+.gatoconbotas{
+    order: 2;
+    height: 280px;
+    margin-bottom: 15px;
+    align-self: flex-end;
+}
+.fiona{
+    order: 1;
+    flex-wrap: wrap-reverse;
+    height: 900;
+}
